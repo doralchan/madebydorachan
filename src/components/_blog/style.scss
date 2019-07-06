@@ -1,0 +1,61 @@
+@import './../../styles/breakpoints';
+
+// Blog Styles
+
+.blog {
+  grid-area: blog;
+  position: relative;
+  margin-bottom: 60px;
+
+  @media #{$tablet} {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 80px;
+  }
+
+  @media #{$desktopxl} {
+    grid-gap: 40px;
+    margin-bottom: 170px;
+  }
+
+}
+
+.blog-profile {
+  display: none;
+
+  @media #{$tablet} {
+    display: block;
+    position: absolute;
+    width: 300px;
+    left: -200px;
+    bottom: 0;
+  }
+
+  @media #{$desktopxl} {
+    width: 360px;
+    left: -250px;
+    bottom: -50px;
+  }
+
+}
+
+.blog-coffee {
+  display: none;
+
+  @media #{$tablet} {
+    display: block;
+    position: absolute;
+    width: 60px;
+    right: -10px;
+    bottom: -20px;
+  }
+
+  @media #{$desktopxl} {
+    width: 80px;
+    right: -20px;
+    bottom: -40px;
+  }
+
+}

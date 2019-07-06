@@ -1,0 +1,26 @@
+@import './../../styles/breakpoints';
+
+// Post Styles
+
+.post {
+  width: 100%;
+  z-index: 1;
+}
+
+.post-title {
+  margin-bottom: 8px;
+}
+
+.post-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 12px 0px rgba(237,237,237,1);
+  padding: 50px;
+  margin-bottom: 20px;
+
+  @media #{$tablet} {
+    margin: 0;
+  }
+
+}

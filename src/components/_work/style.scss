@@ -1,0 +1,21 @@
+@import './../../styles/breakpoints';
+
+// Work Styles
+
+.work {
+  grid-area: work;
+  margin-bottom: 100px;
+
+  @media #{$tablet} {
+    margin-bottom: 100px;
+  }
+
+  @media #{$desktopxl} {
+    margin-bottom: 150px;
+  }
+
+}
+
+.work-title {
+  margin-bottom: 16px;
+}
