@@ -46,12 +46,27 @@ Modal.Detail = class Detail extends Component {
       'The Solution'
     ]),
     imgSrc: PropTypes.string,
-    children: PropTypes.node
+    children: PropTypes.node,
+    number: PropTypes.number
+  }
+
+  renderNumber() {
+    switch( this.props.number ) {
+      case 'The Problem':
+        return <h3>1</h3>
+      case 'Research':
+        return <h3>2</h3>
+      case 'The Solution':
+        return <h3>3</h3>
+      default:
+        return <h3>4</h3>
+    }
   }
 
   render() {
     return (
       <div className='modal-body-detail'>
+        <div>{ this.props.number }</div>
         <div>
           <div><strong>{ this.props.subtitle }</strong></div>
           <div>{ this.props.children }</div>
