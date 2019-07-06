@@ -9,7 +9,12 @@ class Modal extends Component {
     title:  PropTypes.string,
     children:   PropTypes.node.isRequired,
     className:  PropTypes.string,
-    handleClose: PropTypes.func
+    handleClose: PropTypes.func,
+    role: PropTypes.string
+  }
+
+  static defaultProps = {
+    role: 'My role was the product designer.'
   }
 
   render() {
@@ -17,13 +22,16 @@ class Modal extends Component {
 
     return (
       <div className={ modalClasses }>
+        <div className='modal-nav'>
+          <h6 className='modal-nav-link' onClick={ this.props.handleClose }>Go Home</h6>
+          <h6 className='modal-nav-link' onClick={ this.props.handleClose }>Go Travel</h6>
+        </div>
         <div className='modal-header'>
-          <h6 className='modal-close' onClick={ this.props.handleClose }>Go Home</h6>
-          <h6 className='modal-next' onClick={ this.props.handleClose }>Go Travel</h6>
+          <h3>{ this.props.title }</h3>
+          <p>{ this.props.role }</p>
         </div>
         <div className='modal-body'>
-          <h3>{ this.props.title }</h3>
-          <div>{ this.props.children }</div>
+          { this.props.children }
         </div>
       </div>
     )
@@ -32,30 +40,22 @@ class Modal extends Component {
 
 Modal.Detail = class Detail extends Component {
   static propTypes = {
-    subtitle: PropTypes.string,
-    children: PropTypes.node
-  }
-
-  render() {
-    return (
-      <div className='modal-detail'>
-        <div><strong>{ this.props.subtitle }</strong></div>
-        <div>{ this.props.children }</div>
-      </div>
-    )
-  }
-
-}
-
-Modal.Image = class Image extends Component {
-  static propTypes = {
+    subtitle: PropTypes.oneOf([
+      'The Problem',
+      'Research',
+      'The Solution'
+    ]),
     imgSrc: PropTypes.string,
     children: PropTypes.node
   }
 
   render() {
     return (
-      <div className='modal-image'>
+      <div className='modal-body-detail'>
+        <div>
+          <div><strong>{ this.props.subtitle }</strong></div>
+          <div>{ this.props.children }</div>
+        </div>
         <img src={ this.props.imgSrc } alt='' />
       </div>
     )
