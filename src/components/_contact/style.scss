@@ -32,6 +32,10 @@
     margin-bottom: 8px;
   }
 
+  .contact-block-blurb {
+    margin-bottom: 32px;
+  }
+
   .contact-block-list {
     padding: 0;
     list-style: none;
@@ -44,6 +48,10 @@
 
   @media #{$desktopxl} {
     padding: 60px 0 80px 0;
+  }
+
+  .list-item-icon {
+    width: 40px;
   }
 
 }
