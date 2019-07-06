@@ -18,7 +18,7 @@
   grid-template-columns: 0 12fr 0;
   grid-template-rows:
     [nav] 40px
-    [header] 180px
+    [header] 100px
     [body] auto;
   padding: 40px;
 
@@ -29,6 +29,10 @@
 
   @media #{$desktop} {
     grid-template-columns: 1fr minmax(min-content, 1040px) 1fr;
+    grid-template-rows:
+      [nav] 40px
+      [header] 180px
+      [body] auto;
     padding: 40px;
   }
 
@@ -72,7 +76,12 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+
+  @media #{$desktop} {
+    margin-bottom: 30px;
+  }
+
 }
 
 .modal-body {
@@ -82,18 +91,23 @@
 
 .modal-body-detail {
   border-top: 1px solid var(--color-navy-dark);
+  padding: 20px 0;
 
   @media #{$tablet} {
     display: grid;
     grid-template-columns: auto 1fr 1fr;
     grid-column-gap: 40px;
-    padding: 20px 0;
   }
 
 }
 
+.body-detail-block {
+  padding-bottom: 16px;
+}
+
 .body-detail-number {
   color: var(--color-coral);
+  padding-bottom: 20px;
 }
 
 .body-detail-image {

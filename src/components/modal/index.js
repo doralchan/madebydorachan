@@ -69,7 +69,7 @@ Modal.Detail = class Detail extends Component {
           { this.renderNumber() }
         </div>
         <div className='body-detail-block'>
-          <h4>{ this.props.subtitle }</h4>
+          <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
           { this.props.children }
         </div>
         <div className='body-detail-image'><img src={ this.props.imgSrc } alt='' /></div>
