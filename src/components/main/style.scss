@@ -30,24 +30,28 @@
       ". . blog ."
       "contact contact contact contact";
     grid-template-rows:
-      [hero] 600px
+      [hero] 650px
       [skills] auto
       [work] auto
       [blog] auto
       [contact] auto;
-    grid-template-columns: 1fr minmax(min-content, 460px) minmax(min-content, 460px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 450px) minmax(min-content, 450px) 1fr;
     grid-column-gap: 20px;
+  }
+
+  @media #{$desktop} {
+    grid-template-columns: 1fr minmax(min-content, 520px) minmax(min-content, 520px) 1fr;
+    grid-column-gap: 40px;
   }
 
   @media #{$desktopxl} {
     grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
     grid-template-rows:
-      [hero] 700px
+      [hero] 750px
       [skills] auto
       [work] auto
       [blog] auto
       [contact] auto;
-    grid-column-gap: 40px;
   }
 
 }

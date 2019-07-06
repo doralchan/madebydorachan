@@ -22,10 +22,22 @@
   display: flex;
   justify-content: space-between;
   padding: 14px;
-  border-top: 1px solid var(--color-navy);
+  border-bottom: 1px solid var(--color-navy-dark);
+
+  &:first-child {
+    border-top: 1px solid var(--color-navy-dark);
+  }
+
+  @media #{$tablet} {
+
+    &:nth-child(7) {
+      border-top: 1px solid var(--color-navy-dark);
+    }
+
+  }
 
   &:hover {
-    
+
   }
 
 }

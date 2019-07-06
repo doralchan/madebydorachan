@@ -23,13 +23,17 @@
   padding: 40px;
 
   @media #{$tablet} {
-    grid-template-columns: 1fr minmax(min-content, 920px) 1fr;
+    grid-template-columns: 1fr minmax(min-content, 900px) 1fr;
     padding: 20px;
+  }
+
+  @media #{$desktop} {
+    grid-template-columns: 1fr minmax(min-content, 1040px) 1fr;
+    padding: 40px;
   }
 
   @media #{$desktopxl} {
     grid-template-columns: 1fr minmax(min-content, 1120px) 1fr;
-    padding: 40px;
   }
 
 }
