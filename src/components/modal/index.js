@@ -28,7 +28,6 @@ class Modal extends Component {
         </div>
         <div className='modal-header'>
           <h3>{ this.props.title }</h3>
-          <p>{ this.props.role }</p>
         </div>
         <div className='modal-body'>
           { this.props.children }
@@ -51,27 +50,29 @@ Modal.Detail = class Detail extends Component {
   }
 
   renderNumber() {
-    switch( this.props.number ) {
+    switch( this.props.subtitle ) {
       case 'The Problem':
-        return <h3>1</h3>
+        return <h4>01</h4>
       case 'Research':
-        return <h3>2</h3>
+        return <h4>02</h4>
       case 'The Solution':
-        return <h3>3</h3>
+        return <h4>03</h4>
       default:
-        return <h3>4</h3>
+        return <h4>04</h4>
     }
   }
 
   render() {
     return (
       <div className='modal-body-detail'>
-        <div>{ this.props.number }</div>
-        <div>
-          <div><strong>{ this.props.subtitle }</strong></div>
-          <div>{ this.props.children }</div>
+        <div className='body-detail-number'>
+          { this.renderNumber() }
         </div>
-        <img src={ this.props.imgSrc } alt='' />
+        <div className='body-detail-block'>
+          <h4>{ this.props.subtitle }</h4>
+          { this.props.children }
+        </div>
+        <div className='body-detail-image'><img src={ this.props.imgSrc } alt='' /></div>
       </div>
     )
   }
