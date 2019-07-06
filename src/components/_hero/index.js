@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
-import Button from '../button';
 import Nav from '../_nav';
 
 import Profile1 from '../../assets/profile_1.svg';
 import Profile2 from '../../assets/profile_2.svg';
 
+import ScrollTo from 'react-scroll-into-view';
+
 import './style.scss';
+import '../button/style.scss';
 
 class Hero extends Component {
   render() {
@@ -21,11 +23,11 @@ class Hero extends Component {
         <div className='hero-block'>
           <h1 className='hero-block-title'>Hello There</h1>
           <div className='hero-block-desc'>
-            I'm Dora, a product and systems designer located in San Francisco. I currently work at Square.
+            I'm Dora, a product and systems designer located in the foggy city of San Francisco
           </div>
           <div className='hero-block-ctas'>
-            <Button className='block-ctas-btn'>Show Me</Button>
-            <Button className='block-ctas-btn' btnType='secondary'>Contact Me</Button>
+            <ScrollTo selector='#work' className='btn btn-primary block-ctas-btn'>Show Me</ScrollTo>
+            <ScrollTo selector='#contact' className='btn btn-secondary block-ctas-btn'>Contact Me</ScrollTo>
           </div>
         </div>
       </div>

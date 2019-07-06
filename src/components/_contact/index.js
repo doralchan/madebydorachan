@@ -24,22 +24,22 @@ class Contact extends Component {
           <ul className='contact-block-list'>
             <li className='list-item'>
               <Link to='https://www.linkedin.com/in/doralchan/'>
-                <img src={ LinkedIn } className='list-item-icon' />
+                <img src={ LinkedIn } className='list-item-icon' alt='' />
               </Link>
             </li>
             <li>
               <Link to='https://twitter.com/doralchan'>
-                <img src={ Twitter } className='list-item-icon' />
+                <img src={ Twitter } className='list-item-icon' alt='' />
               </Link>
             </li>
             <li>
               <Link to='https://dribbble.com/doralchan'>
-                <img src={ Dribbble } className='list-item-icon' />
+                <img src={ Dribbble } className='list-item-icon' alt='' />
               </Link>
             </li>
             <li>
               <Link to='https://www.pinterest.com/doralchan/'>
-                <img src={ Pinterest } className='list-item-icon' />
+                <img src={ Pinterest } className='list-item-icon' alt='' />
               </Link>
             </li>
           </ul>

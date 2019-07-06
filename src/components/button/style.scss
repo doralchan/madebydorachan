@@ -19,6 +19,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--color-white);
+  font-weight: 600;
 
   @media #{$tablet} {
     width: auto;
