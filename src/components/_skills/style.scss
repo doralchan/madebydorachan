@@ -42,21 +42,13 @@
 .skills-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: relative;
   margin-bottom: 24px;
 
-  @media #{tablet} {
-    min-height: 200px;
-  }
-
   @media #{$desktop} {
-    min-height: 260px;
+    justify-content: flex-end;
     margin-bottom: 0;
-  }
-
-  @media #{$desktopxl} {
-    min-height: 220px;
   }
 
   &:hover {
@@ -69,15 +61,7 @@
 
 }
 
-.skills-card-title {
-  margin-bottom: 8px;
-}
-
-.skills-card-body {
-
-  @media #{$desktopxl} {
-    margin-bottom: 8px
-  }
+.skills-card-content {
 
 }
 

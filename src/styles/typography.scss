@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Text|Open+Sans:300,400,600&display=swap');
 @import './breakpoints';
 
 // Typography Styles
 
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('../fonts/DMSerifDisplay-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'DM Serif Text', serif;
+  font-family: 'DM Serif Display', serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-weight: normal;
