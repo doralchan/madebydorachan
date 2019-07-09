@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.89ab6844.chunk.css",
+    "main.css": "/static/css/main.1f05b90d.chunk.css",
     "main.js": "/static/js/main.f5dabbdb.chunk.js",
     "main.js.map": "/static/js/main.f5dabbdb.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,10 +8,11 @@
     "static/js/2.582fa426.chunk.js": "/static/js/2.582fa426.chunk.js",
     "static/js/2.582fa426.chunk.js.map": "/static/js/2.582fa426.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.98d7f0c65a086c31595153366075dea0.js": "/precache-manifest.98d7f0c65a086c31595153366075dea0.js",
+    "precache-manifest.a17511bb02edcac251a5378aac6ba945.js": "/precache-manifest.a17511bb02edcac251a5378aac6ba945.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.89ab6844.chunk.css.map": "/static/css/main.89ab6844.chunk.css.map",
+    "static/css/main.1f05b90d.chunk.css.map": "/static/css/main.1f05b90d.chunk.css.map",
     "static/media/index.scss": "/static/media/DMSerifDisplay-Regular.c74abbf2.ttf",
+    "static/media/style.scss": "/static/media/icon-caret.a8a2da6b.svg",
     "static/media/icon-dribbble.svg": "/static/media/icon-dribbble.3b3b670f.svg",
     "static/media/icon-hexagon.svg": "/static/media/icon-hexagon.7a4efb59.svg",
     "static/media/icon-linkedin.svg": "/static/media/icon-linkedin.54a86840.svg",

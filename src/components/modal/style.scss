@@ -52,11 +52,20 @@
 
 .modal-nav-link {
   cursor: pointer;
+  position: relative;
 
   &:first-child {
 
     &:before {
       display: block;
+      content: '';
+      background: url('../../assets/icon-caret.svg') no-repeat;
+      transform: rotate(180deg);
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      left: -20px;
+      top: 4px;
     }
 
   }
@@ -65,6 +74,13 @@
 
     &:after {
       display: block;
+      content: '';
+      background: url('../../assets/icon-caret.svg') no-repeat;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: -20px;
+      top: 4px;
     }
 
   }
