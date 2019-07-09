@@ -49,7 +49,7 @@ class Skills extends Component {
     return (
       <Fade bottom className='skill' delay={ 200 }>
         <SkillsCard cardTitle='Front-End' iconSrc={ IconTriangle }>
-          Staying up to date with modern languages and frameworks empower me to become a better collaborator. I'm able to scope user-facing projects more reliably, provide rapid prototypes for interaction design and generate production level code with testing.
+          Staying up to date with modern languages, tools and frameworks enable me to be a better collaborator. I'm able to scope user-facing projects more reliably, provide rapid prototypes for interaction design and generate production level code with testing.
         </SkillsCard>
       </Fade>
     );
