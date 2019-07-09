@@ -40,16 +40,7 @@
 }
 
 .skills-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
   margin-bottom: 24px;
-
-  @media #{$desktop} {
-    justify-content: flex-end;
-    margin-bottom: 0;
-  }
 
   &:hover {
 
@@ -59,9 +50,33 @@
 
   }
 
+  @media #{$tablet} {
+    min-height: 200px;
+  }
+
+  @media #{$desktop} {
+    display: flex;
+    align-items: flex-end;
+    min-height: 280px;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  @media #{$desktopxl} {
+    min-height: 220px;
+  }
+
 }
 
 .skills-card-content {
+
+  @media #{$desktop} {
+    min-height: 180px;
+  }
+
+  @media #{$desktopxl} {
+    min-height: 170px;
+  }
 
 }
 

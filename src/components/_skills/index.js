@@ -39,7 +39,7 @@ class Skills extends Component {
     return (
       <Fade bottom className='skill'>
         <SkillsCard cardTitle='User Experience' iconSrc={ IconHexagon }>
-            I believe empathy helps create better experiences. By identifying pain points, common behaviors and expectations, we give the user a voice which provides guidance in product design. Meaningful results are often achieved by listening - not by what's trending.
+            I believe empathy helps create better experiences. By identifying painpoints, common behaviors and expectations, we give the user a voice which provides guidance in design. Meaningful results are achieved by listening - not what's trending.
         </SkillsCard>
       </Fade>
     );
@@ -49,7 +49,7 @@ class Skills extends Component {
     return (
       <Fade bottom className='skill' delay={ 200 }>
         <SkillsCard cardTitle='Front-End' iconSrc={ IconTriangle }>
-          Staying up to date with modern languages and frameworks empower me to become a better collaborator with engineers. I'm able to scope user-facing projects more reliably, provide rapid prototypes for interaction design and generate production level code with testing.
+          Staying up to date with modern languages and frameworks empower me to become a better collaborator. I'm able to scope user-facing projects more reliably, provide rapid prototypes for interaction design and generate production level code with testing.
         </SkillsCard>
       </Fade>
     );
@@ -59,7 +59,7 @@ class Skills extends Component {
     return (
       <Fade bottom className='skill' delay={ 300 }>
         <SkillsCard cardTitle='Design Systems' iconSrc={ IconSquare }>
-          Systems enable efficiency and provide a platform for others to design off of. A good one helps maintain what works, discourages repeat failures, and remains flexible enough to respond to changing environments. I constantly think about how much time modularity would save.
+          Systems enable efficiency and provide a platform for others to design off of. A good one helps maintain what works, discourages repeat failures, and remains flexible enough to respond to changing environments. I frequently advocate for modularization.
         </SkillsCard>
       </Fade>
     );
