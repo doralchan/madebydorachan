@@ -39,7 +39,7 @@ class Skills extends Component {
     return (
       <Fade bottom className='skill'>
         <SkillsCard cardTitle='User Experience' iconSrc={ IconHexagon }>
-            I believe empathy helps create better experiences. By identifying painpoints, common behaviors and expectations, we give the user a voice which provides guidance in design. Meaningful results are achieved by listening - not what's trending.
+            I believe empathy helps create better experiences. By identifying painpoints, common behaviors and expectations, we give the user a voice which provides guidance in design. Meaningful results are often achieved by listening - not by what's trending.
         </SkillsCard>
       </Fade>
     );
