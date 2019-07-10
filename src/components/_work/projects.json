@@ -37,7 +37,7 @@
 {
   "project": "Chat",
   "company": "Gusto",
-  "year": "2016",
+  "year": "2017",
   "link": "/project_chat"
 },
 {
@@ -53,20 +53,32 @@
   "link": "/project_garnishments"
 },
 {
+  "project": "Review",
+  "company": "Gusto",
+  "year": "2016",
+  "link": "/project_review"
+},
+{
   "project": "Dashboard",
   "company": "Auditfile",
-  "year": "2016",
+  "year": "2015",
   "link": "/project_dashboard"
+},
+{
+  "project": "Sections",
+  "company": "Auditfile",
+  "year": "2014",
+  "link": "/project_integrations"
 },
 {
   "project": "Box Hackathon",
   "company": "Freelance",
-  "year": "2015",
+  "year": "2014",
   "link": "/project_box_hackathon"
 },
 {
   "project": "Dinobi",
   "company": "Freelance",
-  "year": "2015",
+  "year": "2013",
   "link": "/project_dinobi"
 }]
