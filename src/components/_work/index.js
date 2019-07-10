@@ -8,6 +8,8 @@ import Table from '../table';
 import projects from './projects.json';
 
 import BusinessSetup from './project_business_setup';
+import TimecardIntegrations from './project_timecard_integrations';
+import SquareDesignSummit from './project_square_design_summit';
 
 import './style.scss';
 
@@ -42,6 +44,8 @@ class Work extends Component {
             }
           </Table>
           <ModalRoute component={ BusinessSetup } path='/project_business_setup' parentPath='/' />
+          <ModalRoute component={ TimecardIntegrations } path='/project_timecard_integrations' parentPath='/' />
+          <ModalRoute component={ SquareDesignSummit } path='/project_square_design_summit' parentPath='/' />
           <ModalContainer />
         </div>
       </BrowserRouter>

@@ -51,13 +51,13 @@
   }
 
   @media #{$tablet} {
-    min-height: 200px;
+    min-height: 185px;
   }
 
   @media #{$desktop} {
     display: flex;
     align-items: flex-end;
-    min-height: 280px;
+    min-height: 240px;
     position: relative;
     margin-bottom: 0;
   }
@@ -71,7 +71,7 @@
 .skills-card-content {
 
   @media #{$desktop} {
-    min-height: 190px;
+    min-height: 170px;
   }
 
   @media #{$desktopxl} {
