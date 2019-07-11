@@ -41,7 +41,7 @@
   "link": "/project_chat"
 },
 {
-  "project": "The Guide",
+  "project": "Guide",
   "company": "Gusto",
   "year": "2016",
   "link": "/project_guide"
@@ -53,10 +53,10 @@
   "link": "/project_garnishments"
 },
 {
-  "project": "Review",
+  "project": "Payroll Review",
   "company": "Gusto",
   "year": "2016",
-  "link": "/project_review"
+  "link": "/project_payroll_review"
 },
 {
   "project": "Dashboard",
@@ -68,7 +68,7 @@
   "project": "Sections",
   "company": "Auditfile",
   "year": "2014",
-  "link": "/project_integrations"
+  "link": "/project_sections"
 },
 {
   "project": "Box Hackathon",

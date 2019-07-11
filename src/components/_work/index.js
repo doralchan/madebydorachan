@@ -14,6 +14,13 @@ import YearEnd from './project_year_end';
 import Notifications from './project_notifications';
 import Onboarding from './project_onboarding';
 import Chat from './project_chat';
+import Guide from './project_guide';
+import Garnishments from './project_garnishments';
+import PayrollReview from './project_payroll_review';
+import Dashboard from './project_dashboard';
+import Sections from './project_sections';
+import BoxHackathon from './project_box_hackathon';
+import Dinobi from './project_dinobi';
 
 import './style.scss';
 
@@ -54,6 +61,13 @@ class Work extends Component {
           <ModalRoute component={ Notifications } path='/project_notifications' parentPath='/' />
           <ModalRoute component={ Onboarding } path='/project_onboarding' parentPath='/' />
           <ModalRoute component={ Chat } path='/project_chat' parentPath='/' />
+          <ModalRoute component={ Guide } path='/project_guide' parentPath='/' />
+          <ModalRoute component={ Garnishments } path='/project_garnishments' parentPath='/' />
+          <ModalRoute component={ PayrollReview } path='/project_payroll_review' parentPath='/' />
+          <ModalRoute component={ Dashboard } path='/project_dashboard' parentPath='/' />
+          <ModalRoute component={ Sections } path='/project_sections' parentPath='/' />
+          <ModalRoute component={ BoxHackathon } path='/project_box_hackathon' parentPath='/' />
+          <ModalRoute component={ Dinobi } path='/project_dinobi' parentPath='/' />
           <ModalContainer />
         </div>
       </BrowserRouter>
