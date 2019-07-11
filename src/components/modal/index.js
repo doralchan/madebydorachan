@@ -43,7 +43,7 @@ Modal.Detail = class Detail extends Component {
       'The Problem',
       'Research',
       'The Solution',
-      'Gallery'
+      'Background'
     ]),
     imgSrc: PropTypes.string,
     children: PropTypes.node,

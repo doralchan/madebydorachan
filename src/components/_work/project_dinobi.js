@@ -7,15 +7,8 @@ class Dinobi extends Component {
       <Modal
         title='Dinobi'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='The Problem'>
-          TBD
-        </Modal.Detail>
-        <Modal.Detail subtitle='Research'>
-          TBD
-        </Modal.Detail>
-        <Modal.Detail subtitle='The Solution'>
-          TBD
-        </Modal.Detail>
+        <Modal.Detail subtitle='Background'></Modal.Detail>
+        <Modal.Gallery></Modal.Gallery>
       </Modal>
     )
   }
