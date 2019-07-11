@@ -27,7 +27,7 @@ class Modal extends Component {
           <h6 className='modal-nav-link' onClick={ this.props.handleClose }>Go Travel</h6>
         </div>
         <div className='modal-header'>
-          <h3>{ this.props.title }</h3>
+          <h3 className='margin-bottom-8px'>{ this.props.title }</h3>
         </div>
         <div className='modal-body'>
           { this.props.children }
@@ -42,7 +42,8 @@ Modal.Detail = class Detail extends Component {
     subtitle: PropTypes.oneOf([
       'The Problem',
       'Research',
-      'The Solution'
+      'The Solution',
+      'Gallery'
     ]),
     imgSrc: PropTypes.string,
     children: PropTypes.node,
@@ -58,7 +59,7 @@ Modal.Detail = class Detail extends Component {
       case 'The Solution':
         return <h4>03</h4>
       default:
-        return <h4>04</h4>
+        return <h4>00</h4>
     }
   }
 
@@ -79,6 +80,21 @@ Modal.Detail = class Detail extends Component {
     )
   }
 
+}
+
+Modal.Gallery = class Gallery extends Component {
+  static propTypes= {
+    children:   PropTypes.node.isRequired,
+    className: PropTypes.string
+  }
+
+  render() {
+    return (
+      <div className='modal-body-gallery'>
+        { this.props.children }
+      </div>
+    )
+  }
 }
 
 export default Modal;

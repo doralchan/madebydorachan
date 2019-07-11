@@ -7,15 +7,10 @@ class SquareDesignSummit extends Component {
       <Modal
         title='Square Design Summit'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='The Problem'>
-          TBD
-        </Modal.Detail>
-        <Modal.Detail subtitle='Research'>
-          TBD
-        </Modal.Detail>
-        <Modal.Detail subtitle='The Solution'>
-          TBD
-        </Modal.Detail>
+        <Modal.Detail subtitle='Gallery'></Modal.Detail>
+        <Modal.Gallery>
+
+        </Modal.Gallery>
       </Modal>
     )
   }
