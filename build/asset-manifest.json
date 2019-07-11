@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9193c59d.chunk.css",
-    "main.js": "/static/js/main.abd50a58.chunk.js",
-    "main.js.map": "/static/js/main.abd50a58.chunk.js.map",
+    "main.css": "/static/css/main.2958536f.chunk.css",
+    "main.js": "/static/js/main.0f40657b.chunk.js",
+    "main.js.map": "/static/js/main.0f40657b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.dea28fca.chunk.js": "/static/js/2.dea28fca.chunk.js",
-    "static/js/2.dea28fca.chunk.js.map": "/static/js/2.dea28fca.chunk.js.map",
+    "static/js/2.d07fbca2.chunk.js": "/static/js/2.d07fbca2.chunk.js",
+    "static/js/2.d07fbca2.chunk.js.map": "/static/js/2.d07fbca2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.29083510d9e1bffa7b183adf51a27b0f.js": "/precache-manifest.29083510d9e1bffa7b183adf51a27b0f.js",
+    "precache-manifest.1eccc2123e5e44b42e01a10e7048f020.js": "/precache-manifest.1eccc2123e5e44b42e01a10e7048f020.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9193c59d.chunk.css.map": "/static/css/main.9193c59d.chunk.css.map",
+    "static/css/main.2958536f.chunk.css.map": "/static/css/main.2958536f.chunk.css.map",
     "static/media/index.scss": "/static/media/DMSerifDisplay-Regular.c74abbf2.ttf",
     "static/media/style.scss": "/static/media/icon-caret.a8a2da6b.svg",
     "static/media/icon-dribbble.svg": "/static/media/icon-dribbble.3b3b670f.svg",
@@ -26,7 +26,8 @@
     "static/media/profile_3.svg": "/static/media/profile_3.52c5e0a1.svg",
     "static/media/profile_4.svg": "/static/media/profile_4.adf5d6ee.svg",
     "static/media/project_business_setup_mapping.svg": "/static/media/project_business_setup_mapping.88d49bde.svg",
-    "static/media/project_timecard_integrations_mapping.svg": "/static/media/project_timecard_integrations_mapping.dfb53237.svg",
+    "static/media/project_notifications_mapping.svg": "/static/media/project_notifications_mapping.9dab3f6b.svg",
+    "static/media/project_timecard_integrations_mapping.svg": "/static/media/project_timecard_integrations_mapping.7136f005.svg",
     "static/media/spot-illo-coffee.svg": "/static/media/spot-illo-coffee.3435b9c3.svg"
   }
 }
