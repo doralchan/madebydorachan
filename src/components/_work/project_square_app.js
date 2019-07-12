@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import Modal from '../modal';
+
+class SquareApp extends Component {
+  render() {
+    return (
+      <Modal
+        title='Square App'
+        handleClose={ this.props.closeModal }>
+        <Modal.Detail subtitle='Background' >
+          TBD
+        </Modal.Detail>
+      </Modal>
+    )
+  }
+}
+
+export default SquareApp;

@@ -39,12 +39,7 @@ class Modal extends Component {
 
 Modal.Detail = class Detail extends Component {
   static propTypes = {
-    subtitle: PropTypes.oneOf([
-      'The Problem',
-      'Research',
-      'The Solution',
-      'Background'
-    ]),
+    subtitle: PropTypes.string,
     imgSrc: PropTypes.string,
     children: PropTypes.node,
     number: PropTypes.number
@@ -52,11 +47,13 @@ Modal.Detail = class Detail extends Component {
 
   renderNumber() {
     switch( this.props.subtitle ) {
-      case 'The Problem':
+      case 'Context':
+        return <h4>00</h4>
+      case 'Problem':
         return <h4>01</h4>
-      case 'Research':
+      case 'Goal':
         return <h4>02</h4>
-      case 'The Solution':
+      case 'Design':
         return <h4>03</h4>
       default:
         return <h4>00</h4>

@@ -7,13 +7,13 @@ class Dashboard extends Component {
       <Modal
         title='Dashboard'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='The Problem'>
+        <Modal.Detail subtitle='Problem'>
           TBD
         </Modal.Detail>
-        <Modal.Detail subtitle='Research'>
+        <Modal.Detail subtitle='Goal'>
           TBD
         </Modal.Detail>
-        <Modal.Detail subtitle='The Solution'>
+        <Modal.Detail subtitle='Design'>
           TBD
         </Modal.Detail>
       </Modal>
