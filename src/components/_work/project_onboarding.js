@@ -9,7 +9,7 @@ class Onboarding extends Component {
       <Modal
         title='Onboarding'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem' imgSrc={ Mapping }>
+        <Modal.Detail subtitle='Context' imgSrc={ Mapping }>
           TBD
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>

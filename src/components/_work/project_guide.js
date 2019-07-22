@@ -7,7 +7,7 @@ class Guide extends Component {
       <Modal
         title='Guide'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem'>
+        <Modal.Detail subtitle='Context'>
           With the rapid growth and rebranding of the company, large inconsistencies were developing between teams. There was uncertainty about what UI components, UX paradigms, and assets were available to product and marketing. Undocumented, tribal knowledge became the norm.
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>

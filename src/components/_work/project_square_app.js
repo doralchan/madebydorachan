@@ -7,7 +7,7 @@ class SquareApp extends Component {
       <Modal
         title='Square App'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Background' >
+        <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
       </Modal>

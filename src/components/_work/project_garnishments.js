@@ -7,7 +7,7 @@ class Garnishments extends Component {
       <Modal
         title='Garnishments'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem'>
+        <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>

@@ -7,7 +7,7 @@ class Sections extends Component {
       <Modal
         title='Sections'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem'>
+        <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>

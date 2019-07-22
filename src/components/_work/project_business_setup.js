@@ -9,7 +9,7 @@ class BusinessSetup extends Component {
       <Modal
         title='Business Setup'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem' imgSrc={ Mapping }>
+        <Modal.Detail subtitle='Context' imgSrc={ Mapping }>
           Gathering tax information from employers has proven to be one of the most challenging steps to onboarding. Not only is there a substantial drop off rate, but there is sufficient evidence the numbers entered are made up to get past this step. See an example of Pennsylvania below. This problem is compounded when we work towards offering employers the ability to enter multiple state tax jurisdictions.
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>

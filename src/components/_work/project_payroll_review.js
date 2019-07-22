@@ -7,7 +7,7 @@ class PayrollReview extends Component {
       <Modal
         title='Payroll Review'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem'>
+        <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>
