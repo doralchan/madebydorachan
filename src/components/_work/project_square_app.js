@@ -10,6 +10,7 @@ class SquareApp extends Component {
         <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
+        <Modal.Gallery></Modal.Gallery>
       </Modal>
     )
   }

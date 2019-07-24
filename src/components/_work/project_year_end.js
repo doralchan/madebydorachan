@@ -7,7 +7,7 @@ class YearEnd extends Component {
       <Modal
         title='Year End'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Problem'>
+        <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
         <Modal.Detail subtitle='Goal'>
