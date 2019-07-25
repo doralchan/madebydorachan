@@ -18,18 +18,18 @@ class Blog extends Component {
         <div className='blog-profile'><img src={ Profile4 } alt='' /></div>
         <Fade bottom>
           <Post title='Blog Entry 1'>
-            Coming Soon
+            Prototyping with React + Next.js (Coming Soon)
           </Post>
           <Post title='Blog Entry 2'>
-            Coming Soon
+            How to Plan a Tiny Summit (Coming Soon)
           </Post>
         </Fade>
-        <Fade bottom delay={ 400 }>  
+        <Fade bottom delay={ 400 }>
           <Post title='Blog Entry 3'>
-            Coming Soon
+            Avoid Bias in Research (Coming Soon)
           </Post>
           <Post title='Blog Entry 4'>
-            Coming Soon
+            Product Design Master of None (Coming Soon)
           </Post>
         </Fade>
         <div className='blog-coffee'><img src={ Coffee } alt='' /></div>
