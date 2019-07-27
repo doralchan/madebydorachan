@@ -63,7 +63,7 @@ Modal.Detail = class Detail extends Component {
         </div>
         <div className='body-detail-block'>
           <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
-          { this.props.children }
+          <div>{ this.props.children }</div>
         </div>
         <div className='body-detail-image'>
           { this.props.imgSrc ? <img src={ this.props.imgSrc } alt='' /> : null }
@@ -90,7 +90,7 @@ Modal.Gallery = class Gallery extends Component {
         </div>
         <div className='body-gallery-block'>
           <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
-          { this.props.children }
+          <div>{ this.props.children }</div>
         </div>
       </div>
     )
