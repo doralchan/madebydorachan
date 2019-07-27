@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.e70b4634.chunk.css",
-    "main.js": "/static/js/main.0486a192.chunk.js",
-    "main.js.map": "/static/js/main.0486a192.chunk.js.map",
+    "main.js": "/static/js/main.777805f6.chunk.js",
+    "main.js.map": "/static/js/main.777805f6.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.cb926aa2.chunk.js": "/static/js/2.cb926aa2.chunk.js",
     "static/js/2.cb926aa2.chunk.js.map": "/static/js/2.cb926aa2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d3d13d7a53986347c2ac909689d97394.js": "/precache-manifest.d3d13d7a53986347c2ac909689d97394.js",
+    "precache-manifest.21d18a356dcfcd76a6e6146f3a3c580f.js": "/precache-manifest.21d18a356dcfcd76a6e6146f3a3c580f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e70b4634.chunk.css.map": "/static/css/main.e70b4634.chunk.css.map",
     "static/media/index.scss": "/static/media/DMSerifDisplay-Regular.c74abbf2.ttf",

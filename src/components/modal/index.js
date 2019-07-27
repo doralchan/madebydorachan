@@ -48,8 +48,6 @@ Modal.Detail = class Detail extends Component {
   renderNumber() {
     switch( this.props.subtitle ) {
       case 'Context':
-        return <h4>00</h4>
-      case 'Problem':
         return <h4>01</h4>
       case 'Goal':
         return <h4>02</h4>
