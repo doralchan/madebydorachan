@@ -9,12 +9,7 @@ class Modal extends Component {
     title:  PropTypes.string,
     children:   PropTypes.node.isRequired,
     className:  PropTypes.string,
-    handleClose: PropTypes.func,
-    role: PropTypes.string
-  }
-
-  static defaultProps = {
-    role: 'My role was the product designer.'
+    handleClose: PropTypes.func
   }
 
   render() {
@@ -59,8 +54,10 @@ Modal.Detail = class Detail extends Component {
   }
 
   render() {
+    const detailClasses = classNames('modal-body-detail', this.props.className);
+
     return (
-      <div className='modal-body-detail'>
+      <div className={ detailClasses }>
         <div className='body-detail-number'>
           { this.renderNumber() }
         </div>
@@ -84,9 +81,17 @@ Modal.Gallery = class Gallery extends Component {
   }
 
   render() {
+    const galleryClasses = classNames('modal-body-gallery', this.props.className);
+
     return (
-      <div className='modal-body-gallery'>
-        { this.props.children }
+      <div className={ galleryClasses }>
+        <div className='body-gallery-number'>
+          <h4>01</h4>
+        </div>
+        <div className='body-gallery-block'>
+          <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
+          { this.props.children }
+        </div>
       </div>
     )
   }
