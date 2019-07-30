@@ -123,9 +123,20 @@
 
 }
 
+.body-gallery-block {
+  margin-bottom: 24px;
+}
+
 .body-detail-number,
 .body-gallery-number {
   color: var(--color-coral);
+}
+
+.body-gallery-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  grid-area: images;
 }
 
 .modal-body-detail {
@@ -143,6 +154,9 @@
   @media #{$tablet} {
     display: grid;
     grid-template-columns: 26px 1fr 26px;
+    grid-template-areas:
+      ". description ."
+      "images images images";
     grid-column-gap: 30px;
     padding: 30px 10px;
   }

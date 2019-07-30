@@ -77,7 +77,8 @@ Modal.Detail = class Detail extends Component {
 Modal.Gallery = class Gallery extends Component {
   static propTypes= {
     children:   PropTypes.node.isRequired,
-    className: PropTypes.string
+    className: PropTypes.string,
+    description: PropTypes.string
   }
 
   render() {
@@ -90,7 +91,10 @@ Modal.Gallery = class Gallery extends Component {
         </div>
         <div className='body-gallery-block'>
           <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
-          <div>{ this.props.children }</div>
+          <div>{ this.props.description }</div>
+        </div>
+        <div className='body-gallery-images'>
+          { this.props.children }
         </div>
       </div>
     )
