@@ -9,7 +9,8 @@ class Modal extends Component {
     title:  PropTypes.string,
     children:   PropTypes.node.isRequired,
     className:  PropTypes.string,
-    handleClose: PropTypes.func
+    handleClose: PropTypes.func,
+    path: PropTypes.string
   }
 
   render() {
@@ -19,7 +20,7 @@ class Modal extends Component {
       <div className={ modalClasses }>
         <div className='modal-nav'>
           <h6 className='modal-nav-link' onClick={ this.props.handleClose }>Go Home</h6>
-          <h6 className='modal-nav-link' onClick={ this.props.handleClose }>Go Travel</h6>
+          <h6 className='modal-nav-link' onClick={ this.props.path }>Go Travel</h6>
         </div>
         <div className='modal-header'>
           <h3 className='margin-bottom-8px'>{ this.props.title }</h3>
@@ -36,6 +37,7 @@ Modal.Detail = class Detail extends Component {
   static propTypes = {
     subtitle: PropTypes.string,
     imgSrc: PropTypes.string,
+    imgGallery: PropTypes.array,
     children: PropTypes.node,
     number: PropTypes.number
   }
@@ -48,13 +50,27 @@ Modal.Detail = class Detail extends Component {
         return <h4>02</h4>
       case 'Design':
         return <h4>03</h4>
+      case 'Gallery':
+        return <h4>02</h4>
       default:
         return <h4>00</h4>
     }
   }
 
+  renderExample() {
+    return (
+      <div className='body-detail-image'>
+        <img src={ this.props.imgSrc } alt='' />
+      </div>
+    )
+  }
+
   render() {
-    const detailClasses = classNames('modal-body-detail', this.props.className);
+    const detailClasses = classNames(
+      'modal-body-detail',
+      this.props.imgSrc ? 'modal-body-example' : 'modal-body-gallery',
+      this.props.className
+    );
 
     return (
       <div className={ detailClasses }>
@@ -63,42 +79,13 @@ Modal.Detail = class Detail extends Component {
         </div>
         <div className='body-detail-block'>
           <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
-          <div>{ this.props.children }</div>
+          <div className='margin-bottom-16px'>{ this.props.children }</div>
         </div>
-        <div className='body-detail-image'>
-          { this.props.imgSrc ? <img src={ this.props.imgSrc } alt='' /> : null }
-        </div>
+        { this.props.imgSrc ? this.renderExample() : null }
       </div>
     )
   }
 
-}
-
-Modal.Gallery = class Gallery extends Component {
-  static propTypes= {
-    children:   PropTypes.node.isRequired,
-    className: PropTypes.string,
-    description: PropTypes.string
-  }
-
-  render() {
-    const galleryClasses = classNames('modal-body-gallery', this.props.className);
-
-    return (
-      <div className={ galleryClasses }>
-        <div className='body-gallery-number'>
-          <h4>01</h4>
-        </div>
-        <div className='body-gallery-block'>
-          <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
-          <div>{ this.props.description }</div>
-        </div>
-        <div className='body-gallery-images'>
-          { this.props.children }
-        </div>
-      </div>
-    )
-  }
 }
 
 export default Modal;
