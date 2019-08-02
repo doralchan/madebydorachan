@@ -12,9 +12,6 @@ class TimecardIntegrations extends Component {
         <Modal.Detail subtitle='Context' imgSrc={ Mapping }>
           TBD
         </Modal.Detail>
-        <Modal.Detail subtitle='Goal'>
-          TBD
-        </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           TBD
         </Modal.Detail>

@@ -46,11 +46,7 @@ Modal.Detail = class Detail extends Component {
     switch( this.props.subtitle ) {
       case 'Context':
         return <h4>01</h4>
-      case 'Goal':
-        return <h4>02</h4>
       case 'Design':
-        return <h4>03</h4>
-      case 'Gallery':
         return <h4>02</h4>
       default:
         return <h4>00</h4>

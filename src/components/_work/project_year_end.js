@@ -10,9 +10,6 @@ class YearEnd extends Component {
         <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>
-        <Modal.Detail subtitle='Goal'>
-          TBD
-        </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           TBD
         </Modal.Detail>
