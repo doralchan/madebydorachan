@@ -19,3 +19,15 @@
 .work-title {
   margin-bottom: 16px;
 }
+
+.work-grid {
+  margin-top: 40px;
+
+  @media #{$tablet} {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+}

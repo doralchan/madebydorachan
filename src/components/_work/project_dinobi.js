@@ -10,10 +10,10 @@ class Dinobi extends Component {
         title='Dinobi'
         handleClose={ this.props.closeModal }>
         <Modal.Detail subtitle='Context'>
-          I play board and card games very regularly. After playing Hanabi for the first time, a Japanese game with terrible graphics, I was disappointed. It required more mental processing power then necessary since users needed to parse the distracting visuals before taking each action. However, I liked the mechanics of the game so I sought to address it.
+          I play games pretty regularly. After I played Hanabi, a Japanese card game, I was both intrigued and frustrated. The mechanics of the game were unusual and challenging but the visuals were utterly distracting and difficult to digest. It felt like it took more time to read the number on the card than it took to actually play the card. I wanted to address this annoyance by redesiging the deck.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
-          After choosing the theme of dinosaurs escaping an approaching meteor, I worked with another engineer to generate these cards automagically with javascript (as opposed to me carefully configuring the arrangement of each dinosaur). This is an open source project we created here. <a href='https://github.com/doralchan/dinobi-cards/blob/master/index.html' className='link'>Dinobi</a>.
+          I was aiming for a whimsical theme that friends could remember and laugh over since the game itself is collaborative. The goal is to complete sequential decks of each suit by deduction and memory. With each mistake, the entire group suffers. With each victory, the entire group survives another round. What better theme to represent this constant struggle for survival than dinosaurs caught in a meteor shower? Each suit represents a species of dinosaur that the everyone is trying to collectively save. I worked with another engineer to generate these cards automagically. This is an open source project, <a href='https://github.com/doralchan/dinobi-cards/blob/master/index.html' className='link'>Dinobi</a>.
           <div>
             <img src={ DinobiImage } alt='' />
           </div>
