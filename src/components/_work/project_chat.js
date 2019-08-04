@@ -16,12 +16,12 @@ class Chat extends Component {
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           Major considerations in this project was internal team availability and the desire for automation. In a matrix, we were looking at online v. offline hours and proactive v. reactive interactions. Customers facing issues off hours were the most vulnerable. We wanted to try to anticipate and address their needs by proactively engaging with them through Gus, the bot.
-          <div>
-            <img src={ ReactiveChat } alt='' />
-            <img src={ ProactiveChat } alt='' />
-            <img src={ OfflineChat } alt='' />
-          </div>
         </Modal.Detail>
+        <Modal.Gallery columns={ 1 }>
+          <div><img src={ ReactiveChat } alt='' /></div>
+          <div><img src={ ProactiveChat } alt='' /></div>
+          <div><img src={ OfflineChat } alt='' /></div>
+        </Modal.Gallery>
       </Modal>
     )
   }

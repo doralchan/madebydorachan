@@ -37,7 +37,6 @@ Modal.Detail = class Detail extends Component {
   static propTypes = {
     subtitle: PropTypes.string,
     imgSrc: PropTypes.string,
-    imgGallery: PropTypes.array,
     children: PropTypes.node,
     number: PropTypes.number
   }
@@ -64,7 +63,7 @@ Modal.Detail = class Detail extends Component {
   render() {
     const detailClasses = classNames(
       'modal-body-detail',
-      this.props.imgSrc ? 'modal-body-example' : 'modal-body-gallery',
+      this.props.imgSrc ? 'modal-body-partial' : 'modal-body-full',
       this.props.className
     );
 
@@ -75,9 +74,36 @@ Modal.Detail = class Detail extends Component {
         </div>
         <div className='body-detail-block'>
           <h4 className='margin-bottom-8px'>{ this.props.subtitle }</h4>
-          <div className='margin-bottom-16px'>{ this.props.children }</div>
+          <div>{ this.props.children }</div>
         </div>
         { this.props.imgSrc ? this.renderExample() : null }
+      </div>
+    )
+  }
+
+}
+
+Modal.Gallery = class Detail extends Component {
+  static propTypes = {
+    columns: PropTypes.number,
+    children: PropTypes.node.isRequired
+  }
+
+  static defaultProps = {
+    columns: 1
+  }
+
+  render() {
+    const galleryClasses = classNames(
+      'modal-body-gallery',
+      this.props.className
+    );
+
+    return (
+      <div className={ galleryClasses }>
+        <div className={ 'body-detail-' + this.props.columns }>
+          { this.props.children }
+        </div>
       </div>
     )
   }

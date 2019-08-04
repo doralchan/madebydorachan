@@ -17,13 +17,13 @@ class BoxHackathon extends Component {
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           There were two user types in this case - the typical voter (Boxers) and the panel voter. The votes were weighted differently. Boxers could generally vote and determine which ones they liked with a simple upvote or like whereas panel voters were required to vote per prize category. This broke down into 3 steps for panel voters: selecting the category, highlighting the entries they liked per category, and then ranking them accordingly. This would allow runner ups to emerge from the tally. The project proved successful, where Aaron Levie himself applauded the effort (CEO of Box).
-          <div className='work-grid'>
-            <div><img src={ BoxHackathon1 } alt='' /></div>
-            <div><img src={ BoxHackathon2 } alt='' /></div>
-            <div><img src={ BoxHackathon3 } alt='' /></div>
-            <div><img src={ BoxHackathon4 } alt='' /></div>
-          </div>
         </Modal.Detail>
+        <Modal.Gallery columns={ 2 }>
+          <div><img src={ BoxHackathon1 } alt='' /></div>
+          <div><img src={ BoxHackathon2 } alt='' /></div>
+          <div><img src={ BoxHackathon3 } alt='' /></div>
+          <div><img src={ BoxHackathon4 } alt='' /></div>
+        </Modal.Gallery>
       </Modal>
     )
   }
