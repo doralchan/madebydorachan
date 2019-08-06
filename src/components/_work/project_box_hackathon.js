@@ -13,10 +13,10 @@ class BoxHackathon extends Component {
         title='Box Hackathon'
         handleClose={ this.props.closeModal }>
         <Modal.Detail subtitle='Context'>
-          Every year, Box holds a 24 hour hackathon with the prospect of winning prizes and recognition. There is a popular vote and a panel vote. Anyone can submit a project and vote. The idea was to have a big reveal at the end, concluding the event. Box needed a method to publish videos and vote. By that time, they had already decided to theme it off of the Lego Movie.
+          Every year, Box holds a 24 hour hackathon with the prospect of winning prizes and recognition. There is a popular vote and a panel vote. Anyone can submit a project and vote. The idea was to have a big reveal at the end, concluding the event. Box needed a method to publish videos and vote. The theme of the year was the Lego Movie.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
-          There were two user types in this case - the typical voter (Boxers) and the panel voter. The votes were weighted differently. Boxers could generally vote and determine which ones they liked with a simple upvote or like whereas panel voters were required to vote per prize category. This broke down into 3 steps for panel voters: selecting the category, highlighting the entries they liked per category, and then ranking them accordingly. This would allow runner ups to emerge from the tally. The project proved successful, where Aaron Levie himself applauded the effort (CEO of Box).
+          There were two user types in this case - the typical voter (Boxers) and the panel voter (Special Judges) with the votes weighted differently. Boxers could generally vote and determine which ones they liked with a simple upvote or like whereas panel voters were required to vote per prize category. For the panel voters, the workflow required 3 basic steps: selecting the category, highlighting the entries they liked per category, and ranking them accordingly. This would allow runner ups to emerge from the tally. The site served as a useful platform for the internal team.
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
           <div><img src={ BoxHackathon1 } alt='' /></div>

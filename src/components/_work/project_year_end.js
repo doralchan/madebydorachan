@@ -8,7 +8,7 @@ class YearEnd extends Component {
         title='Year End'
         handleClose={ this.props.closeModal }>
         <Modal.Detail subtitle='Context'>
-          TBD
+          At the end of every year, businesses are tasked with 
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           TBD
