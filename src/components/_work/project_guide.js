@@ -4,6 +4,12 @@ import Image from '../image';
 
 import Guide1 from '../../assets/guide_home.png';
 import Guide2 from '../../assets/guide_brand_identity.png';
+import Guide3 from '../../assets/guide_product_assets.png';
+import Guide4 from '../../assets/guide_product_elements.png';
+import Guide5 from '../../assets/guide_product_helpers.png';
+import Guide6 from '../../assets/guide_usability_actions.png';
+import Guide7 from '../../assets/guide_usability_workflows.png';
+import Guide8 from '../../assets/guide_research_interviews.png';
 
 class Guide extends Component {
   render() {
@@ -20,6 +26,12 @@ class Guide extends Component {
         <Modal.Gallery columns={ 2 }>
           <Image imgSrc={ Guide1 } />
           <Image imgSrc={ Guide2 } />
+          <Image imgSrc={ Guide3 } />
+          <Image imgSrc={ Guide4 } />
+          <Image imgSrc={ Guide5 } />
+          <Image imgSrc={ Guide6 } />
+          <Image imgSrc={ Guide7 } />
+          <Image imgSrc={ Guide8 } />
         </Modal.Gallery>
       </Modal>
     )
