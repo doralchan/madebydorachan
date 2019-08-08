@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Modal from '../modal';
-
-import Mapping from '../../assets/project_onboarding_mapping.svg';
+import Image from '../image';
 
 import Onboarding1 from '../../assets/onboarding_landing.png';
 import Onboarding2 from '../../assets/onboarding_signup.png';
@@ -23,26 +22,26 @@ class Onboarding extends Component {
       <Modal
         title='Onboarding'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Context' imgSrc={ Mapping }>
+        <Modal.Detail subtitle='Context'>
           Gusto was originally ZenPayroll, a startup with an onboarding experience designed for those who were already sold on payroll. It had been years since this flow was touched. With the widening user base, it became a major strain to the funnel of customers coming in who simply wanted to browse the product. The goal was to introduce the brand while progressively demonstrating value and building trust. NBD. While this was the primary goal, I had a secondary goal of reducing the need for manual data entry. Integrations introduced an opportunity for automation, and increased probability of feature adoption.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           This was one of the largest projects I've completed at Gusto. It required major collaboration with multiple internal teams, including growth, risk, engineering, and more. Onboarding required research on multiple fronts since it heavily touched entry points at the landing page, pricing, navigation, dashboard and promotional content. With the massive scope of this project, it was necessary to break it down by phases.
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
-          <div><img src={ Onboarding1 } alt='' /></div>
-          <div><img src={ Onboarding2 } alt='' /></div>
-          <div><img src={ Onboarding3 } alt='' /></div>
-          <div><img src={ Onboarding4 } alt='' /></div>
-          <div><img src={ Onboarding5 } alt='' /></div>
-          <div><img src={ Onboarding6 } alt='' /></div>
-          <div><img src={ Onboarding7 } alt='' /></div>
-          <div><img src={ Onboarding8 } alt='' /></div>
-          <div><img src={ Onboarding9 } alt='' /></div>
-          <div><img src={ Onboarding10 } alt='' /></div>
-          <div><img src={ Onboarding11 } alt='' /></div>
-          <div><img src={ Onboarding12 } alt='' /></div>
-          <div><img src={ Onboarding13 } alt='' /></div>
+          <Image imgSrc={ Onboarding1 } />
+          <Image imgSrc={ Onboarding2 } />
+          <Image imgSrc={ Onboarding3 } />
+          <Image imgSrc={ Onboarding4 } />
+          <Image imgSrc={ Onboarding5 } />
+          <Image imgSrc={ Onboarding6 } />
+          <Image imgSrc={ Onboarding7 } />
+          <Image imgSrc={ Onboarding8 } />
+          <Image imgSrc={ Onboarding9 } />
+          <Image imgSrc={ Onboarding10 } />
+          <Image imgSrc={ Onboarding11 } />
+          <Image imgSrc={ Onboarding12 } />
+          <Image imgSrc={ Onboarding13 } />
         </Modal.Gallery>
       </Modal>
     )

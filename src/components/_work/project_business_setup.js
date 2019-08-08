@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Modal from '../modal';
 
-import Mapping from '../../assets/project_business_setup_mapping.svg';
-
 class BusinessSetup extends Component {
   render() {
     return (
       <Modal
         title='Business Setup'
         handleClose={ this.props.closeModal }>
-        <Modal.Detail subtitle='Context' imgSrc={ Mapping }>
+        <Modal.Detail subtitle='Context'>
           After working with the operations team and customer support, we discovered a list of common scenarios. The employers who ended up with failed tax filings had either not registered with the proper state agencies, were still waiting to receive their account numbers, are currently not eligible or used an inactive state account number from a previous business. It became clear employers needed more information about what to do with each respective status.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>

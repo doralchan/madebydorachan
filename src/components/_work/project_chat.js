@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal from '../modal';
+import Image from '../image';
 
 import ReactiveChat from '../../assets/chat_online_reactive.png';
 import ProactiveChat from '../../assets/chat_online_proactive.png';
@@ -18,9 +19,9 @@ class Chat extends Component {
           Major considerations in this project was internal team availability and the desire for automation. In a matrix, we were looking at online v. offline hours and proactive v. reactive interactions. Online hours meant we had customer support agents available for questions, while offline meant we needed to rely on alternative resources. Proactive meant we would try and anticipate their needs, sharing common articles relevant to the content on the page. Reactive refers to the typical chat we have today in most products. Mirroring the customer interface was the support interface. This internal tool needed to provide chat functionality for incoming messages and display salient customer data, such as business names, phone numbers, past tickets, etc.
         </Modal.Detail>
         <Modal.Gallery columns={ 1 }>
-          <div><img src={ ReactiveChat } alt='' /></div>
-          <div><img src={ ProactiveChat } alt='' /></div>
-          <div><img src={ OfflineChat } alt='' /></div>
+          <Image imgSrc={ ReactiveChat } />
+          <Image imgSrc={ ProactiveChat } />
+          <Image imgSrc={ OfflineChat } />
         </Modal.Gallery>
       </Modal>
     )

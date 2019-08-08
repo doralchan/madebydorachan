@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal from '../modal';
+import Image from '../image';
 
 import BoxHackathon1 from '../../assets/box_hackathon1.png';
 import BoxHackathon2 from '../../assets/box_hackathon2.png';
@@ -19,10 +20,10 @@ class BoxHackathon extends Component {
           There were two user types in this case - the typical voter (Boxers) and the panel voter (Special Judges) with the votes weighted differently. Boxers could generally vote and determine which ones they liked with a simple upvote or like whereas panel voters were required to vote per prize category. For the panel voters, the workflow required 3 basic steps: selecting the category, highlighting the entries they liked per category, and ranking them accordingly. This would allow runner ups to emerge from the tally. The site served as a useful platform for the internal team.
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
-          <div><img src={ BoxHackathon1 } alt='' /></div>
-          <div><img src={ BoxHackathon2 } alt='' /></div>
-          <div><img src={ BoxHackathon3 } alt='' /></div>
-          <div><img src={ BoxHackathon4 } alt='' /></div>
+          <Image imgSrc={ BoxHackathon1 } />
+          <Image imgSrc={ BoxHackathon2 } />
+          <Image imgSrc={ BoxHackathon3 } />
+          <Image imgSrc={ BoxHackathon4 } />
         </Modal.Gallery>
       </Modal>
     )

@@ -11,7 +11,7 @@ class YearEnd extends Component {
           At the end of every year, businesses are tasked with wrapping up their financial year. This means
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
-          In an effort to 
+          In an effort to
         </Modal.Detail>
       </Modal>
     )
