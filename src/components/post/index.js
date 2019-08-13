@@ -8,7 +8,15 @@ class Post extends Component {
   static propTypes = {
     children:   PropTypes.node,
     className:  PropTypes.string,
-    title: PropTypes.string
+    title: PropTypes.string,
+    linkTo: PropTypes.string,
+    imgSrc: PropTypes.string
+  }
+
+  renderImg() {
+    return (
+      <div><img src={ this.props.imgSrc } className='post-image-src' alt='' /></div>
+    )
   }
 
   render() {
@@ -17,7 +25,10 @@ class Post extends Component {
     return (
       <div className={ postClasses }>
         <h4 className='post-title'>{ this.props.title }</h4>
-        <div className='post-image'>{ this.props.children }</div>
+        <a className='post-image' href={ this.props.linkTo } target='_blank' rel='noopener noreferrer'>
+          { this.props.imgSrc ? this.renderImg() : null }
+          <div>{ this.props.children }</div>
+        </a>
       </div>
     )
   }

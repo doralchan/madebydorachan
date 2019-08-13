@@ -3,8 +3,10 @@
 // Post Styles
 
 .post {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  cursor: pointer;
+  height: 100%;
 }
 
 .post-title {
@@ -12,16 +14,25 @@
 }
 
 .post-image {
+  flex-grow: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   background-color: var(--color-white);
   box-shadow: 0px 0px 12px 0px rgba(237,237,237,1);
-  padding: 40px;
+  padding: 30px 20px;
   margin-bottom: 20px;
+  text-align: center;
 
   @media #{$tablet} {
     margin: 0;
   }
 
+}
+
+.post-image-src {
+  width: auto;
+  height: auto;
+  max-height: 120px;
 }

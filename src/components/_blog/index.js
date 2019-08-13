@@ -7,6 +7,8 @@ import Post from '../post';
 import Profile4 from '../../assets/profile_4.svg';
 import Coffee from '../../assets/spot-illo-coffee.svg';
 
+import Burger from '../../assets/burger.png';
+
 import './style.scss';
 
 class Blog extends Component {
@@ -17,19 +19,19 @@ class Blog extends Component {
       <div id='blog' className={ blogClasses }>
         <div className='blog-profile'><img src={ Profile4 } alt='' /></div>
         <Fade bottom>
-          <Post title='Blog Entry 1'>
-            Prototyping with React + Next.js (Coming Soon)
+          <Post title='Blog Entry 1' linkTo='https://medium.com/@doralchan/css-grid-burger-b2df6991c194' imgSrc={ Burger }>
+            CSS Grid Burger
           </Post>
           <Post title='Blog Entry 2'>
-            How to Plan a Tiny Summit (Coming Soon)
+            Planning a Tiny Design Summit
           </Post>
         </Fade>
         <Fade bottom delay={ 400 }>
           <Post title='Blog Entry 3'>
-            Avoid Bias in Research (Coming Soon)
+            Avoid Bias in User Research
           </Post>
           <Post title='Blog Entry 4'>
-            Product Design Master of None (Coming Soon)
+            Building a Wedding Website
           </Post>
         </Fade>
         <div className='blog-coffee'><img src={ Coffee } alt='' /></div>
