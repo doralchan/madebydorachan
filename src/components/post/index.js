@@ -13,12 +13,6 @@ class Post extends Component {
     imgSrc: PropTypes.string
   }
 
-  renderImg() {
-    return (
-      <div><img src={ this.props.imgSrc } className='post-image-src' alt='' /></div>
-    )
-  }
-
   render() {
     const postClasses = classNames('post', this.props.className);
 
@@ -26,7 +20,7 @@ class Post extends Component {
       <div className={ postClasses }>
         <h4 className='post-title'>{ this.props.title }</h4>
         <a className='post-image' href={ this.props.linkTo } target='_blank' rel='noopener noreferrer'>
-          { this.props.imgSrc ? this.renderImg() : null }
+          { this.props.imgSrc ? <img src={ this.props.imgSrc } className='post-image-src' alt='' /> : null }
           <div>{ this.props.children }</div>
         </a>
       </div>
