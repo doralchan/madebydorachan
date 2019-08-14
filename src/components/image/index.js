@@ -16,14 +16,13 @@ class Image extends Component {
 
   render() {
     const imgClasses = classNames(
-      'img',
       this.props.hasBorder === true ? 'img-border' : null,
       this.props.className
     );
 
     return (
       <a href={ this.props.imgSrc } className={ imgClasses } target='_blank' rel="noopener noreferrer">
-        <img src={ this.props.imgSrc } alt='' />
+        <img src={ this.props.imgSrc } className='img' alt='' />
       </a>
     )
   }
