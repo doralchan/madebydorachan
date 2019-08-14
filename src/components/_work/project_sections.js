@@ -21,7 +21,7 @@ class Sections extends Component {
         <Modal.Detail subtitle='Design'>
           After highlighting key sections, we interviewed a handful of customers about each task and observed them entering data in. Most was documented through excel spreadsheets. They often went back and forth in files, and needed to reference resources found in paperwork. We included easy ways to view attachments, provide commentary and flag errors.
         </Modal.Detail>
-        <Modal.Gallery columns={ 1 }>
+        <Modal.Gallery columns={ 2 }>
           <Image imgSrc={ Section1 } />
           <Image imgSrc={ Section2 } />
           <Image imgSrc={ Section3 } />

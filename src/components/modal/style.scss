@@ -149,7 +149,8 @@
 .body-detail-1,
 .body-detail-2,
 .body-detail-3,
-.body-detail-4 {
+.body-detail-4,
+.body-detail-5 {
   display: grid;
   grid-area: gallery;
   grid-gap: 16px;
@@ -175,6 +176,14 @@
 
   @media #{$tablet} {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+}
+
+.body-detail-5 {
+
+  @media #{$tablet} {
+    grid-template-columns: repeat(5, 1fr);
   }
 
 }
