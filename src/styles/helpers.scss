@@ -86,7 +86,7 @@ $directions: (center, left, right);
 @for $i from 1 through 6 {
 
   .flex-#{$i} {
-    flex: #{$i};
+    flex: #{$i} !important;
   }
 
 }

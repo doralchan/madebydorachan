@@ -8,10 +8,12 @@ import Table from '../table';
 import projects from './projects.json';
 
 import BusinessSetup from './project_business_setup';
+import PublicWeb from './project_public_web';
 import TimecardIntegrations from './project_timecard_integrations';
 import SquareDesignSummit from './project_square_design_summit';
 import YearEnd from './project_year_end';
-import SquareApp from './project_square_app';
+import MobileApp from './project_mobile_app';
+import Benefits from './project_benefits';
 import Onboarding from './project_onboarding';
 import Chat from './project_chat';
 import Guide from './project_guide';
@@ -55,10 +57,12 @@ class Work extends Component {
             }
           </Table>
           <ModalRoute component={ BusinessSetup } path='/project_business_setup' parentPath='/' />
+          <ModalRoute component={ PublicWeb } path='/project_public_web' parentPath='/' />
           <ModalRoute component={ TimecardIntegrations } path='/project_timecard_integrations' parentPath='/' />
           <ModalRoute component={ SquareDesignSummit } path='/project_square_design_summit' parentPath='/' />
           <ModalRoute component={ YearEnd } path='/project_year_end' parentPath='/' />
-          <ModalRoute component={ SquareApp } path='/project_square_app' parentPath='/' />
+          <ModalRoute component={ MobileApp } path='/project_mobile_app' parentPath='/' />
+          <ModalRoute component={ Benefits } path='/project_benefits' parentPath='/' />
           <ModalRoute component={ Onboarding } path='/project_onboarding' parentPath='/' />
           <ModalRoute component={ Chat } path='/project_chat' parentPath='/' />
           <ModalRoute component={ Guide } path='/project_guide' parentPath='/' />

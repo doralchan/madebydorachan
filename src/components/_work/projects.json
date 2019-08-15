@@ -5,6 +5,12 @@
   "link": "/project_business_setup"
 },
 {
+  "project": "Public Web",
+  "company": "Square",
+  "year": "2019",
+  "link": "/project_public_web"
+},
+{
   "project": "Timecard Integrations",
   "company": "Square",
   "year": "2019",
@@ -23,10 +29,16 @@
   "link": "/project_year_end"
 },
 {
-  "project": "Square App",
+  "project": "Mobile App",
   "company": "Square",
   "year": "2018",
-  "link": "/project_square_app"
+  "link": "/project_mobile_app"
+},
+{
+  "project": "Benefits",
+  "company": "Square",
+  "year": "2018",
+  "link": "/project_benefits"
 },
 {
   "project": "Onboarding",

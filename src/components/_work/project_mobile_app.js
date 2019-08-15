@@ -16,18 +16,25 @@ import MobileOnboard5 from '../../assets/mobile_onboard_5.png';
 import MobileOnboard6 from '../../assets/mobile_onboard_6.png';
 import MobileOnboard7 from '../../assets/mobile_onboard_7.png';
 import MobileOnboard8 from '../../assets/mobile_onboard_8.png';
+import MobileOnboard9 from '../../assets/mobile_onboard_9.png';
+import MobileOnboard10 from '../../assets/mobile_onboard_10.png';
 
 import MobilePay1 from '../../assets/mobile_pay_1.png';
 import MobilePay2 from '../../assets/mobile_pay_2.png';
 import MobilePay3 from '../../assets/mobile_pay_3.png';
 import MobilePay4 from '../../assets/mobile_pay_4.png';
 import MobilePay5 from '../../assets/mobile_pay_5.png';
+import MobilePay6 from '../../assets/mobile_pay_6.png';
+import MobilePay7 from '../../assets/mobile_pay_7.png';
+import MobilePay8 from '../../assets/mobile_pay_8.png';
+import MobilePay9 from '../../assets/mobile_pay_9.png';
+import MobilePay10 from '../../assets/mobile_pay_10.png';
 
-class SquareApp extends Component {
+class MobileApp extends Component {
   render() {
     return (
       <Modal
-        title='Square App'
+        title='Mobile App'
         handleClose={ this.props.closeModal }>
         <Modal.Detail subtitle='Context'>
           Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.
@@ -49,15 +56,22 @@ class SquareApp extends Component {
           <Image imgSrc={ MobileOnboard6 } />
           <Image imgSrc={ MobileOnboard7 } />
           <Image imgSrc={ MobileOnboard8 } />
+          <Image imgSrc={ MobileOnboard9 } />
+          <Image imgSrc={ MobileOnboard10 } />
           <Image imgSrc={ MobilePay1 } />
           <Image imgSrc={ MobilePay2 } />
           <Image imgSrc={ MobilePay3 } />
           <Image imgSrc={ MobilePay4 } />
           <Image imgSrc={ MobilePay5 } />
+          <Image imgSrc={ MobilePay6 } />
+          <Image imgSrc={ MobilePay7 } />
+          <Image imgSrc={ MobilePay8 } />
+          <Image imgSrc={ MobilePay9 } />
+          <Image imgSrc={ MobilePay10 } />
         </Modal.Gallery>
       </Modal>
     )
   }
 }
 
-export default SquareApp;
+export default MobileApp;
