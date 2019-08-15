@@ -7,6 +7,7 @@ import LinkedIn from '../../assets/icon-linkedin.svg';
 import Twitter from '../../assets/icon-twitter.svg';
 import Dribbble from '../../assets/icon-dribbble.svg';
 import Github from '../../assets/icon-github.svg';
+import Medium from '../../assets/icon-medium.svg';
 import Pinterest from '../../assets/icon-pinterest.svg';
 
 import './style.scss';
@@ -41,6 +42,11 @@ class Contact extends Component {
             <li>
               <Link to='https://github.com/doralchan'>
                 <img src={ Github } className='list-item-icon' alt='' />
+              </Link>
+            </li>
+            <li>
+              <Link to='https://medium.com/@doralchan'>
+                <img src={ Medium } className='list-item-icon' alt='' />
               </Link>
             </li>
             <li>
