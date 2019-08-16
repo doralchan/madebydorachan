@@ -12,7 +12,8 @@ class Benefits extends Component {
     return (
       <Modal
         title='Benefits'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_onboarding'>
         <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>

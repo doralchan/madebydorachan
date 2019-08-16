@@ -11,7 +11,8 @@ class Chat extends Component {
     return (
       <Modal
         title='Chat'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_guide'>
         <Modal.Detail subtitle='Context'>
           Previous to Gusto offering benefits, chat was not required to comply with the Health Insurance Portability and Accountability Act (HIPAA). With the new release of the benefits product, we needed to immediately switch vendors while taking into account our existing care ticketing system. The goal was to design and implement a customer facing chat tool to be used by both product and sales. This needed to address future scaling needs and reinforce branding attributes.
         </Modal.Detail>

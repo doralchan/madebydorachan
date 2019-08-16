@@ -9,7 +9,8 @@ class Dinobi extends Component {
     return (
       <Modal
         title='Dinobi'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_business_setup'>
         <Modal.Detail subtitle='Context'>
           I play games pretty regularly. After I played Hanabi, a Japanese card game, I was both intrigued and frustrated. The mechanics of the game were unusual and challenging but the visuals were utterly distracting and difficult to digest. It felt like it took more time to read the number on the card than it took to actually play the card. I wanted to address this annoyance by redesiging the deck.
         </Modal.Detail>

@@ -14,7 +14,8 @@ class Sections extends Component {
     return (
       <Modal
         title='Sections'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_box_hackathon'>
         <Modal.Detail subtitle='Context'>
           With so many unique sections within engagements, a lot of focus was required on these individual sections. Within each section are different tasks - tasks ranging everywhere from csv uploads to simple sign offs. These were selected and assigned per engagement early on in the process depending on the client profile. We needed to design the most commonly used sections that every auditor needs. Notable ones include cash flow, leadsheets and trial balances. The goal was to help automate some of these complex calculations and provide a standard protocol per task.
         </Modal.Detail>

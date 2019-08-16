@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
+import { Link } from 'react-router-dom';
+
 import './style.scss';
 
 class Modal extends Component {
@@ -13,6 +15,12 @@ class Modal extends Component {
     path: PropTypes.string
   }
 
+  renderPath() {
+    return (
+      <Link to={ this.props.path }>Go Travel</Link>
+    )
+  }
+
   render() {
     const modalClasses = classNames('modal', this.props.className);
 
@@ -20,7 +28,7 @@ class Modal extends Component {
       <div className={ modalClasses }>
         <div className='modal-nav'>
           <h6 className='modal-nav-link' onClick={ this.props.handleClose }>Go Home</h6>
-          <h6 className='modal-nav-link' onClick={ this.props.path }>Go Travel</h6>
+          <h6 className='modal-nav-link'>{ this.props.path ? this.renderPath() : 'Go Travel' }</h6>
         </div>
         <div className='modal-header'>
           <h3 className='margin-bottom-8px'>{ this.props.title }</h3>

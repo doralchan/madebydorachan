@@ -12,7 +12,8 @@ class YearEnd extends Component {
     return (
       <Modal
         title='Year End'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_mobile_app'>
         <Modal.Detail subtitle='Context'>
           At the end of every year, businesses are tasked with wrapping up their financial year. This means
         </Modal.Detail>

@@ -12,7 +12,8 @@ class Dashboard extends Component {
     return (
       <Modal
         title='Dashboard'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_sections'>
         <Modal.Detail subtitle='Context'>
           Certified public accountants perform multiple engagements every year for clients. These could either be in the form of audits or reviews depending on the size of the client. The larger the client, the more complex the engagement. Each engagement has three general phases of review - planning, program and completion. These do not have to be completed in order and can be worked on simultaneously. Within each phase are sections that require thorough review and approval.
         </Modal.Detail>

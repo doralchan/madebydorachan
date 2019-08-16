@@ -21,7 +21,8 @@ class Onboarding extends Component {
     return (
       <Modal
         title='Onboarding'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_chat'>
         <Modal.Detail subtitle='Context'>
           Gusto was originally ZenPayroll, a startup with an onboarding experience designed for those who were already sold on payroll. It had been years since this flow was touched. With the widening user base, it became a major strain to the funnel of customers coming in who simply wanted to browse the product. The goal was to introduce the brand while progressively demonstrating value and building trust. NBD. While this was the primary goal, I had a secondary goal of reducing the need for manual data entry. Integrations introduced an opportunity for automation, and increased probability of feature adoption.
         </Modal.Detail>

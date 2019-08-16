@@ -12,7 +12,8 @@ class BoxHackathon extends Component {
     return (
       <Modal
         title='Box Hackathon'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_dinobi'>
         <Modal.Detail subtitle='Context'>
           Every year, Box holds a 24 hour hackathon with the prospect of winning prizes and recognition. There is a popular vote and a panel vote. Anyone can submit a project and vote. The idea was to have a big reveal at the end, concluding the event. Box needed a method to publish videos and vote. The theme of the year was the Lego Movie.
         </Modal.Detail>

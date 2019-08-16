@@ -14,7 +14,8 @@ class TimecardIntegrations extends Component {
     return (
       <Modal
         title='Timecard Integrations'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_square_design_summit'>
         <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>

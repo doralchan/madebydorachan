@@ -6,7 +6,8 @@ class Garnishments extends Component {
     return (
       <Modal
         title='Garnishments'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_payroll_review'>
         <Modal.Detail subtitle='Context'>
           Every pay period, employers and accountants waste a lot of time sending out payments to different state agencies on behalf of their employees. Amounts are garnished from every paycheck and sent out manually. Some of the most common garnishments are due to child support, students loans and tax liens. As federally mandated payments, failure to comply can lead to substantial penalties.
         </Modal.Detail>

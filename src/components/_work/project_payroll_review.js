@@ -6,7 +6,8 @@ class PayrollReview extends Component {
     return (
       <Modal
         title='Payroll Review'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_dashboard'>
         <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>

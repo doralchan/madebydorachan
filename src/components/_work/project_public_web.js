@@ -9,7 +9,8 @@ class PublicWeb extends Component {
     return (
       <Modal
         title='Public Web'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_timecard_integrations'>
         <Modal.Detail subtitle='Context'>
           TBD
         </Modal.Detail>

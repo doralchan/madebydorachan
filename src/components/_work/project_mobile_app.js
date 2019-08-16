@@ -35,7 +35,8 @@ class MobileApp extends Component {
     return (
       <Modal
         title='Mobile App'
-        handleClose={ this.props.closeModal }>
+        handleClose={ this.props.closeModal }
+        path='/project_benefits'>
         <Modal.Detail subtitle='Context'>
           Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea.
         </Modal.Detail>
