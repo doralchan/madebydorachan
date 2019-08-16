@@ -18,7 +18,7 @@ class Dinobi extends Component {
           I was aiming for a whimsical theme that friends could remember and laugh over since the game itself is collaborative. The goal is to complete sequential decks of each suit by deduction and memory. With each mistake, the entire group suffers. With each victory, the entire group survives another round. What better theme to represent this constant struggle for survival than dinosaurs caught in a meteor shower? Each suit represents a species of dinosaur that the everyone is trying to collectively save. I worked with another engineer to generate these cards automagically. This is an open source project, <a href='https://github.com/doralchan/dinobi-cards/blob/master/index.html' className='link'>Dinobi</a>.
         </Modal.Detail>
         <Modal.Gallery columns={ 1 }>
-          <Image imgSrc={ Dinobi1 } hasBorder={ false } />
+          <Image imgSrc={ Dinobi1 } />
         </Modal.Gallery>
       </Modal>
     )
