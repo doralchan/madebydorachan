@@ -19,7 +19,7 @@ class Link extends Component {
     const linkClasses = classNames('link', this.props.className);
 
     return (
-      <a href={ this.props.to } className={ linkClasses } alt=''>
+      <a href={ this.props.to } className={ linkClasses } target='_blank' rel='noopener noreferrer' alt=''>
         { this.props.children }
       </a>
     )
