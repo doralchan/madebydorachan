@@ -15,10 +15,10 @@ class YearEnd extends Component {
         handleClose={ this.props.closeModal }
         path='/project_mobile_app'>
         <Modal.Detail subtitle='Context'>
-          At the end of every year, businesses are tasked with wrapping up their financial year. This means
+          At the end of every year, businesses are tasked with wrapping up their financial year. This means they need to generate reports, reconcile, and 
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
-          In an effort to
+          In an effort to reduce the number of customer support calls,
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
           <Image imgSrc={ YearEnd1 } />
