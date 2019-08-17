@@ -19,10 +19,10 @@ class Guide extends Component {
         handleClose={ this.props.closeModal }
         path='/project_garnishments'>
         <Modal.Detail subtitle='Context'>
-          With the rapid growth and rebranding of the company, large inconsistencies were developing between teams. There was uncertainty about what UI components, UX paradigms, and assets were available to product and marketing. Undocumented, tribal knowledge became the norm.
+          With the rapid growth and rebranding of the company, large inconsistencies were developing between teams. There was uncertainty about what UI components, UX paradigms, and assets were available to product and marketing. Undocumented, tribal knowledge became the norm. I knew without addressing the issue, the cohesion of the product would spiral out of control.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
-          The motivation was to fill these knowledge gaps for a majority of the teams including designers, developers, product managers, marketing, and sales. I wanted to create a long term solution that would constantly reflect the evolving state of the company.This became a two part project, where part one required the migration of our basic UI codebase to a component-library (consumed by both product and the guide as a node module). Part two was preparing the guide itself as a visual repository for documentation and testing ground for modularizing the UI.
+          The motivation behind this project was to fill these knowledge gaps for a majority of the teams including designers, developers, product managers, marketing, and sales. I wanted to create a long term solution that would constantly reflect the evolving state of the company.This became a two part project, where part one required the migration of our basic UI codebase to a component-library (consumed by both product and the guide as a node module). Part two was preparing the guide itself as a visual repository for documentation and testing ground for modularizing the UI. It continues to be used as a main resource for product development today.
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
           <Image imgSrc={ Guide1 } />
