@@ -22,6 +22,8 @@ class YearEnd extends Component {
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
           <Image imgSrc={ YearEnd1 } />
+        </Modal.Gallery>
+        <Modal.Gallery columns={ 2 }>
           <Image imgSrc={ YearEnd2 } />
           <Image imgSrc={ YearEnd8 } />
           <Image imgSrc={ YearEnd12 } />
