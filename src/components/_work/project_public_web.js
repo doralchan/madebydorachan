@@ -10,7 +10,7 @@ class PublicWeb extends Component {
       <Modal
         title='Public Web'
         handleClose={ this.props.closeModal }
-        path='/project_timecard_integrations'>
+        path='/project_square_design_summit'>
         <Modal.Detail subtitle='Context'>
           This was a hackweek project that was one of the finalists in a mini design-off, which attempted to reimagine how we would better reflect our growing suite of products without conflicting with the larger Square navigation. This becomes challenging when Square itself already offers an ever expanding mega suite of products.
         </Modal.Detail>

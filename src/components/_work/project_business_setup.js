@@ -17,7 +17,7 @@ class BusinessSetup extends Component {
       <Modal
         title='Business Setup'
         handleClose={ this.props.closeModal }
-        path='/project_public_web'>
+        path='/project_mobile_app'>
         <Modal.Detail subtitle='Context'>
           One of the most common painpoints for small business owners is ensuring they have set up their business correctly. With the constant changes that occur on a Federal, state and local level, it's difficult to know what's required, when - especially for someone who might be just starting out. By failing to properly set up their business, it's likely the owner will need to play catch up in compliance while trying to keep their business afloat. This means that the products they use must also play catchup with them, which, in many cases, falls outside of the product's domain. Unfortunately, for Square, if a request for information is unmet multiple times, the owner is then liable for completing their own tax filings and payments.
         </Modal.Detail>

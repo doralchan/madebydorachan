@@ -36,7 +36,7 @@ class MobileApp extends Component {
       <Modal
         title='Mobile App'
         handleClose={ this.props.closeModal }
-        path='/project_benefits'>
+        path='/project_timecard_integrations'>
         <Modal.Detail subtitle='Context'>
           For proof of concept, the web app was converted into a mobile app by embedding it into a native container. This means the mobile payroll flows was a bi-product of desktop payroll flows. It was not explicitly designed with modern mobile patterns in mind. Despite this hack, it was used by business owners anyways with 10% of all runs through mobile and the rest through desktop. It was clear there was reasonable demand for this, given the number of downloads and requests for improvements.
         </Modal.Detail>
