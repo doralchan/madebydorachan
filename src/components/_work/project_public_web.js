@@ -12,10 +12,10 @@ class PublicWeb extends Component {
         handleClose={ this.props.closeModal }
         path='/project_timecard_integrations'>
         <Modal.Detail subtitle='Context'>
-          For a hackweek project, I worked on the public web page for payroll, timecards and scheduling. Typically, I work on more product focused projects but this was a unique request in growth. The current payroll site has been up for nearly over a year now and is desperate need of a refresh.
+          I typically work on more product-related projects for our quarterly hackweek, but this time around I was prompted to work on a public web project.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
-          One of the greatest draws to Square products are the integrations. 
+          With a blank slate and new suite of products, I wanted to develop a compelling story that would focus on the user and his or her business. The who, what, when, where, why and how was a fundamental framework. After sketching out wireframes and a parti, each section was defined. The business owner was 'the who', the integrated features were 'the what', the day-to-day and year-end were 'the when', the mobile management from anywhere was the 'where', the emphasis on the team dynamics were 'the why' and the pricing and CTA were 'the how'. It was important for any business owner to be able to envision themselves in the same place.
         </Modal.Detail>
         <Modal.Gallery columns={ 1 }>
           <Image imgSrc={ PublicWebImage } />

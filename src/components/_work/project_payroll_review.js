@@ -15,7 +15,7 @@ class PayrollReview extends Component {
         handleClose={ this.props.closeModal }
         path='/project_dashboard'>
         <Modal.Detail subtitle='Context'>
-          TBD
+          When I first joined Zenpayroll / Gusto, the workflow for running payroll was abrupt. It jumped from entering values to a payment confirmation without warning. It created lots of cancelled payrolls due to the inability to check the final result of their inputs.
         </Modal.Detail>
         <Modal.Detail subtitle='Design'>
           TBD

@@ -7,7 +7,6 @@ import Post from '../post';
 import Profile4 from '../../assets/profile_4.svg';
 
 import Burger from '../../assets/burger.png';
-import WomenWhoDesign from '../../assets/women_who_design.png';
 
 import './style.scss';
 
@@ -22,8 +21,9 @@ class Blog extends Component {
           <Post title='Blog Entry 1' linkTo='https://medium.com/@doralchan/css-grid-burger-b2df6991c194' imgSrc={ Burger }>
             <strong>CSS Grid Burger</strong>
           </Post>
-          <Post title='Blog Entry 2' linkTo='https://womenwho.design/' imgSrc={ WomenWhoDesign }>
-            <strong>See Product Designers</strong>
+          <Post title='Blog Entry 2'>
+            <strong>Netlify and Next.js</strong>
+            <div><small>(Work in Progress)</small></div>
           </Post>
         </Fade>
         <Fade bottom delay={ 400 }>
