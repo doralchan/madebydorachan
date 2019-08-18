@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import Modal from '../modal';
 import Image from '../image';
 
+import YearEnd0 from '../../assets/year_end_0.png';
 import YearEnd1 from '../../assets/year_end_1.png';
 import YearEnd2 from '../../assets/year_end_2.png';
-import YearEnd8 from '../../assets/year_end_8.png';
-import YearEnd12 from '../../assets/year_end_12.png';
+import YearEnd3 from '../../assets/year_end_3.png';
+import YearEnd4 from '../../assets/year_end_4.png';
 
 class YearEnd extends Component {
   render() {
@@ -21,12 +22,13 @@ class YearEnd extends Component {
           In an effort to relieve pressure for all parties involved and curtail the influx of customer support calls at the end of the year, we pushed a year end timeline and guide out to all business owners, with SMS notifcations for employees and contractors to update their personal information. In product, the timeline provided smart dates, customized to each business owner. The downloadable/printable guide itself had a checklist, generic timeline, new feature list, FAQ and referral page. This reduced the number of inquiries about important dates, and helped us scale for future year end needs.
         </Modal.Detail>
         <Modal.Gallery columns={ 2 }>
-          <Image imgSrc={ YearEnd1 } />
+          <Image imgSrc={ YearEnd0 } />
         </Modal.Gallery>
         <Modal.Gallery columns={ 2 }>
+          <Image imgSrc={ YearEnd1 } />
           <Image imgSrc={ YearEnd2 } />
-          <Image imgSrc={ YearEnd8 } />
-          <Image imgSrc={ YearEnd12 } />
+          <Image imgSrc={ YearEnd3 } />
+          <Image imgSrc={ YearEnd4 } />
         </Modal.Gallery>
       </Modal>
     )
