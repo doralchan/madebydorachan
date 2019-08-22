@@ -28,7 +28,7 @@ class Blog extends Component {
         </Fade>
         <Fade bottom delay={ 400 }>
           <Post title='Blog Entry 3'>
-            <strong>Avoid Bias in Research</strong>
+            <strong>Avoid Bias in User Interviews</strong>
             <div><small>(Work in Progress)</small></div>
           </Post>
           <Post title='Blog Entry 4'>
