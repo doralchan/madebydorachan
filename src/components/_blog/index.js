@@ -8,6 +8,7 @@ import Profile4 from '../../assets/profile_4.svg';
 
 import Burger from '../../assets/burger.png';
 import Form from '../../assets/form.png';
+import Research from '../../assets/research.png';
 
 import './style.scss';
 
@@ -27,9 +28,8 @@ class Blog extends Component {
           </Post>
         </Fade>
         <Fade bottom delay={ 400 }>
-          <Post title='Blog Entry 3'>
+          <Post title='Blog Entry 3' linkTo='https://medium.com/@doralchan/avoiding-bias-in-user-interviews-d23aa2fb4fd2' imgSrc={ Research }>
             <strong>Avoid Bias in User Interviews</strong>
-            <div><small>(Work in Progress)</small></div>
           </Post>
           <Post title='Blog Entry 4'>
             <strong>Building a Wedding Site</strong>
