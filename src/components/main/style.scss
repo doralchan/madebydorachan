@@ -35,17 +35,16 @@
       [work] auto
       [blog] auto
       [contact] auto;
-    grid-template-columns: 1fr minmax(min-content, 450px) minmax(min-content, 450px) 1fr;
+    grid-template-columns: 0 5fr 7fr 0;  
     grid-column-gap: 20px;
   }
 
   @media #{$desktop} {
-    grid-template-columns: 1fr minmax(min-content, 520px) minmax(min-content, 520px) 1fr;
+    grid-template-columns: 0 6fr 6fr 0; 
     grid-column-gap: 40px;
   }
 
   @media #{$desktopxl} {
-    grid-template-columns: 1fr minmax(min-content, 560px) minmax(min-content, 560px) 1fr;
     grid-template-rows:
       [hero] 750px
       [skills] auto
